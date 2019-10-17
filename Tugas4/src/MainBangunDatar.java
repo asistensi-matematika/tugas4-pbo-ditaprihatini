@@ -57,6 +57,7 @@ public class MainBangunDatar {
                         double tinggi2 = dita.nextDouble();
                         SegitigaSamaSisi samasisi = new SegitigaSamaSisi(alas2,tinggi2);
                         samasisi.view(alas2);
+                        break;
                 }
         }
     }

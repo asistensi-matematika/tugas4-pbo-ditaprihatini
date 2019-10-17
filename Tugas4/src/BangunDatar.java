@@ -44,30 +44,30 @@ class Persegi extends BangunDatar{
 }
 
 class Lingkaran extends BangunDatar{
-protected double jari2;
+    protected double jari2;
 
-public Lingkaran(double jari2){
-    this.jari2 = jari2;
-}
+    public Lingkaran(double jari2){
+        this.jari2 = jari2;
+    }
 
-public double Luas(double jari2){
-    double Luas = 3.14*(Math.pow(jari2, 2));
-    return Luas;
-}
+    public double Luas(double jari2){
+        double Luas = 3.14*(Math.pow(jari2, 2));
+        return Luas;
+    }
 
-public double Keliling(double jari2){
-    double Keliling = 2*3.14*jari2;
-    return Keliling;
-}
+    public double Keliling(double jari2){
+        double Keliling = 2*3.14*jari2;
+        return Keliling;
+    }
 
-public void view(){
-    double l = Luas(jari2);
-    double k = Keliling(jari2);
-    super.view();
-    System.out.println("lingkaran");
-    System.out.println("Luas lingkarannya adalah "+l+" cm^2");
-    System.out.println("Keliling lingkarannya adalah "+k+" cm");
-}
+    public void view(){
+        double l = Luas(jari2);
+        double k = Keliling(jari2);
+        super.view();
+        System.out.println("lingkaran");
+        System.out.println("Luas lingkarannya adalah "+l+" cm^2");
+        System.out.println("Keliling lingkarannya adalah "+k+" cm");
+    }
 }
 
 class Segitiga extends BangunDatar{
